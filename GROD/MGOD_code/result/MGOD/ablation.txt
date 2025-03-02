@@ -1,0 +1,162 @@
+---------------MGOD-SAS--------------
+Ablation test: Dataset: D1 AUC: 0.847 PR: 0.325
+Ablation test: Dataset: D2 AUC: 0.8909 PR: 0.5667
+Ablation test: Dataset: D3 AUC: 0.8976 PR: 0.53
+Ablation test: Dataset: D4 AUC: 0.9053 PR: 0.64
+Ablation test: Dataset: D5 AUC: 0.8833 PR: 0.6475
+Ablation test: Dataset: D6 AUC: 0.9587 PR: 0.875
+Ablation test: Dataset: D7 AUC: 0.9368 PR: 0.8
+Ablation test: Dataset: D8 AUC: 0.9457 PR: 0.85
+
+
+---------------MGOD-LAS--------------
+Ablation test: Dataset: D1 AUC: 0.4709 PR: 0.175 AP: 0.1637
+Ablation test: Dataset: D2 AUC: 0.696 PR: 0.4333 AP: 0.4458
+Ablation test: Dataset: D3 AUC: 0.7261 PR: 0.36 AP: 0.3465
+Ablation test: Dataset: D4 AUC: 0.7573 PR: 0.5 AP: 0.47
+Ablation test: Dataset: D5 AUC: 0.7078 PR: 0.565 AP: 0.5914
+Ablation test: Dataset: D6 AUC: 0.7946 PR: 0.6 AP: 0.6973
+Ablation test: Dataset: D7 AUC: 0.7825 PR: 0.625 AP: 0.7265
+Ablation test: Dataset: D8 AUC: 0.6912 PR: 0.6 AP: 0.6421
+
+---------------MGOD-SAS--------------
+
+Ablation test: Dataset: cardio AUC: 0.9281 PR: 0.4205
+Ablation test: Dataset: Cardiotocography AUC: 0.7452 PR: 0.5129
+Ablation test: Dataset: Ionosphere AUC: 0.8583 PR: 0.746
+Ablation test: Dataset: landsat AUC: 0.6341 PR: 0.2671
+Ablation test: Dataset: optdigits AUC: 0.9946 PR: 0.8067
+Ablation test: Dataset: PageBlocks AUC: 0.8978 PR: 0.4725
+
+
+
+--------------最新MGOD-SAS----------------
+
+Ablation MGOD-SAS: Dataset: cardio AUC: 0.8965 PR: 0.3791
+Ablation MGOD-SAS: Dataset: Cardiotocography AUC: 0.7176 PR: 0.4637
+Ablation MGOD-SAS: Dataset: Ionosphere AUC: 0.8702 PR: 0.8496
+Ablation MGOD-SAS: Dataset: landsat AUC: 0.6046 PR: 0.1478
+Ablation MGOD-SAS: Dataset: optdigits AUC: 0.9728 PR: 0.0467
+Ablation MGOD-SAS: Dataset: PageBlocks AUC: 0.902 PR: 0.4945
+Ablation MGOD-SAS: Dataset: pendigits AUC: 0.9628 PR: 0.0263
+Ablation MGOD-SAS: Dataset: Pima AUC: 0.6914 PR: 0.5114
+Ablation MGOD-SAS: Dataset: satellite AUC: 0.779 PR: 0.5828
+Ablation MGOD-SAS: Dataset: satimage-2 AUC: 0.9925 PR: 0.0
+Ablation MGOD-SAS: Dataset: speech AUC: 0.5797 PR: 0.0
+Ablation MGOD-SAS: Dataset: vowels AUC: 0.858 PR: 0.4091
+Ablation MGOD-SAS: Dataset: Waveform AUC: 0.822 PR: 0.0349
+Ablation MGOD-SAS: Dataset: WPBC AUC: 0.5545 PR: 0.1613
+Ablation MGOD-SAS: Dataset: Banknote AUC: 0.5143 PR: 0.5263
+Ablation MGOD-SAS: Dataset: HeartDisease AUC: 0.5928 PR: 0.5143
+Ablation MGOD-SAS: Dataset: D1 AUC: 0.9249 PR: 0.6616
+Ablation MGOD-SAS: Dataset: D2 AUC: 0.5167 PR: 0.6596
+Ablation MGOD-SAS: Dataset: D3 AUC: 0.8553 PR: 0.4024
+Ablation MGOD-SAS: Dataset: D4 AUC: 0.9148 PR: 0.756
+Ablation MGOD-SAS: Dataset: D5 AUC: 0.8554 PR: 0.6339
+Ablation MGOD-SAS: Dataset: D6 AUC: 0.9664 PR: 1.0
+Ablation MGOD-SAS: Dataset: D7 AUC: 0.9646 PR: 1.0
+Ablation MGOD-SAS: Dataset: D8 AUC: 0.8883 PR: 0.7692
+
+--------------最新MGOD-LAS----------------
+Ablation MGOD-LAS: Dataset: cardio AUC: 0.7597 PR: 0.3011
+Ablation MGOD-LAS: Dataset: Cardiotocography AUC: 0.5498 PR: 0.3026
+Ablation MGOD-LAS: Dataset: Ionosphere AUC: 0.7543 PR: 0.6746
+Ablation MGOD-LAS: Dataset: landsat AUC: 0.5092 PR: 0.2153
+Ablation MGOD-LAS: Dataset: optdigits AUC: 0.5466 PR: 0.0467
+Ablation MGOD-LAS: Dataset: PageBlocks AUC: 0.725 PR: 0.3804
+Ablation MGOD-LAS: Dataset: pendigits AUC: 0.4794 PR: 0.0192
+Ablation MGOD-LAS: Dataset: Pima AUC: 0.6062 PR: 0.4515
+Ablation MGOD-LAS: Dataset: satellite AUC: 0.5483 PR: 0.3556
+Ablation MGOD-LAS: Dataset: satimage-2 AUC: 0.7573 PR: 0.0
+Ablation MGOD-LAS: Dataset: speech AUC: 0.6 PR: 0.0
+Ablation MGOD-LAS: Dataset: vowels AUC: 0.8845 PR: 0.48
+Ablation MGOD-LAS: Dataset: Waveform AUC: 0.3864 PR: 0.02
+Ablation MGOD-LAS: Dataset: WPBC AUC: 0.4973 PR: 0.1915
+Ablation MGOD-LAS: Dataset: Banknote AUC: 0.4515 PR: 0.4082
+Ablation MGOD-LAS: Dataset: HeartDisease AUC: 0.6127 PR: 0.55
+Ablation MGOD-LAS: Dataset: D1 AUC: 0.4737 PR: 0.215
+Ablation MGOD-LAS: Dataset: D2 AUC: 0.6131 PR: 0.35
+Ablation MGOD-LAS: Dataset: D3 AUC: 0.7203 PR: 0.38
+Ablation MGOD-LAS: Dataset: D4 AUC: 0.7249 PR: 0.455
+Ablation MGOD-LAS: Dataset: D5 AUC: 0.6644 PR: 0.5
+Ablation MGOD-LAS: Dataset: D6 AUC: 0.7966 PR: 0.625
+Ablation MGOD-LAS: Dataset: D7 AUC: 0.7783 PR: 0.6125
+Ablation MGOD-LAS: Dataset: D8 AUC: 0.6798 PR: 0.55
+
+
+--------------最新MGOD-0----------------
+Ablation MGOD-SAS: Dataset: D1 AUC: 0.8224 PR: 0.38
+Ablation MGOD-SAS: Dataset: D2 AUC: 0.5109 PR: 0.5167
+Ablation MGOD-SAS: Dataset: D3 AUC: 0.8646 PR: 0.44
+Ablation MGOD-SAS: Dataset: D4 AUC: 0.8831 PR: 0.61
+Ablation MGOD-SAS: Dataset: D5 AUC: 0.8757 PR: 0.6475
+Ablation MGOD-SAS: Dataset: D6 AUC: 0.9608 PR: 0.725
+Ablation MGOD-SAS: Dataset: D7 AUC: 0.9736 PR: 0.8875
+Ablation MGOD-SAS: Dataset: D8 AUC: 0.9238 PR: 0.7667
+
+
+#2025.02.06实验结果
+-------------MGOD-SAS，不多次采样----------------
+Ablation test: Dataset: mnist AUC: 0.7863 PR: 0.1859
+Ablation test: Dataset: musk AUC: 0.9604 PR: 0.0
+Ablation test: Dataset: thyroid AUC: 0.8618 PR: 0.125
+Ablation test: Dataset: Seismic AUC: 0.7053 PR: 0.1159
+Ablation test: Dataset: Banknote AUC: 0.5143 PR: 0.5263
+Ablation test: Dataset: HeartDisease AUC: 0.5928 PR: 0.5143
+Ablation test: Dataset: D1 AUC: 0.9249 PR: 0.6616
+Ablation test: Dataset: D2 AUC: 0.5167 PR: 0.6596
+Ablation test: Dataset: D3 AUC: 0.8553 PR: 0.4024
+Ablation test: Dataset: D4 AUC: 0.9148 PR: 0.756
+Ablation test: Dataset: D5 AUC: 0.8554 PR: 0.6339
+Ablation test: Dataset: D6 AUC: 0.9664 PR: 1.0
+Ablation test: Dataset: D7 AUC: 0.9646 PR: 1.0
+Ablation test: Dataset: D8 AUC: 0.8883 PR: 0.7692
+Ablation test: Dataset: D9 AUC: 0.8332 PR: 0.3886
+Ablation test: Dataset: D10 AUC: 0.8319 PR: 0.3789
+Ablation test: Dataset: D11 AUC: 0.9762 PR: 1.0
+Ablation test: Dataset: D12 AUC: 0.9762 PR: 1.0
+
+-------------MGOD-LAS，不多次采样----------------
+Ablation test: Dataset: mnist AUC: 0.4361 PR: 0.0343 AP: 0.0778
+Ablation test: Dataset: musk AUC: 0.727 PR: 0.433 AP: 0.461
+Ablation test: Dataset: thyroid AUC: 0.9202 PR: 0.1183 AP: 0.1652
+Ablation test: Dataset: Seismic AUC: 0.5486 PR: 0.0765 AP: 0.0772
+Ablation test: Dataset: Banknote AUC: 0.4515 PR: 0.4082 AP: 0.3974
+Ablation test: Dataset: HeartDisease AUC: 0.6127 PR: 0.55 AP: 0.5402
+
+Ablation test: Dataset: D1 AUC: 0.4737 PR: 0.215 AP: 0.1736
+Ablation test: Dataset: D2 AUC: 0.6131 PR: 0.35 AP: 0.3756
+Ablation test: Dataset: D3 AUC: 0.7203 PR: 0.38 AP: 0.3857
+Ablation test: Dataset: D4 AUC: 0.7249 PR: 0.455 AP: 0.4281
+Ablation test: Dataset: D5 AUC: 0.6644 PR: 0.5 AP: 0.5252
+Ablation test: Dataset: D6 AUC: 0.7966 PR: 0.625 AP: 0.7062
+Ablation test: Dataset: D7 AUC: 0.7783 PR: 0.6125 AP: 0.6865
+Ablation test: Dataset: D8 AUC: 0.6798 PR: 0.55 AP: 0.6248
+Ablation test: Dataset: D9 AUC: 0.6098 PR: 0.355 AP: 0.3609
+Ablation test: Dataset: D10 AUC: 0.6106 PR: 0.355 AP: 0.3585
+Ablation test: Dataset: D11 AUC: 0.8102 PR: 0.675 AP: 0.7067
+Ablation test: Dataset: D12 AUC: 0.8102 PR: 0.675 AP: 0.7067
+
+-------------MGOD-0，不采样----------------
+Ablation MGOD-0: Dataset: mnist AUC: 0.7599 PR: 0.2343
+Ablation MGOD-0: Dataset: musk AUC: 0.9481 PR: 0.567
+Ablation MGOD-0: Dataset: thyroid AUC: 0.9009 PR: 0.3226
+Ablation MGOD-0: Dataset: Seismic AUC: 0.7015 PR: 0.1059
+Ablation MGOD-0: Dataset: Banknote AUC: 0.5013 PR: 0.4623
+Ablation MGOD-0: Dataset: HeartDisease AUC: 0.6229 PR: 0.5
+Ablation MGOD-0: Dataset: speech AUC: 0.5913 PR: 0.0
+
+Ablation MGOD-0: Dataset: D1 AUC: 0.8224 PR: 0.38
+Ablation MGOD-0: Dataset: D2 AUC: 0.5109 PR: 0.5167
+Ablation MGOD-0: Dataset: D3 AUC: 0.8646 PR: 0.44
+Ablation MGOD-0: Dataset: D4 AUC: 0.8831 PR: 0.61
+Ablation MGOD-0: Dataset: D5 AUC: 0.8757 PR: 0.6475
+Ablation MGOD-0: Dataset: D6 AUC: 0.9608 PR: 0.725
+Ablation MGOD-0: Dataset: D7 AUC: 0.9736 PR: 0.8875
+Ablation MGOD-0: Dataset: D8 AUC: 0.9238 PR: 0.7667
+Ablation MGOD-0: Dataset: D9 AUC: 0.835 PR: 0.405
+Ablation MGOD-0: Dataset: D10 AUC: 0.8455 PR: 0.46
+Ablation MGOD-0: Dataset: D11 AUC: 0.9862 PR: 0.8
+Ablation MGOD-0: Dataset: D12 AUC: 0.9862 PR: 0.8
+
+

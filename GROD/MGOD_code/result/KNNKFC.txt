@@ -1,0 +1,327 @@
+----------------------KFC+KNN-based---------------------
+--------------KNN---------------
+Dataset: Cardiotocography AUC: 0.6003 PR: 0.3219
+Dataset: glass AUC: 0.7886 PR: 0.1111
+Dataset: Ionosphere AUC: 0.83 PR: 0.6111
+Dataset: musk AUC: 1.0 PR: 1.0
+Dataset: Pima AUC: 0.6072 PR: 0.4851
+Dataset: Stamps AUC: 0.906 PR: 0.3226
+Dataset: thyroid AUC: 0.9515 PR: 0.2473
+Dataset: WPBC AUC: 0.5323 PR: 0.1915
+Dataset: Waveform AUC: 0.8009 PR: 0.28
+Dataset: landsat AUC: 0.5937 PR: 0.2926
+Dataset: mnist AUC: 0.8648 PR: 0.4186
+Dataset: optdigits AUC: 0.5355 PR: 0.0336
+Dataset: Lymphography AUC: 0.9988 PR: 0.8333
+Dataset: satellite AUC: 0.6931 PR: 0.5081
+Dataset: satimage-2 AUC: 0.9474 PR: 0.3803
+Dataset: vowels AUC: 0.9682 PR: 0.48
+Dataset: pendigits AUC: 0.8723 PR: 0.0897
+Dataset: PageBlocks AUC: 0.5598 PR: 0.2039
+Dataset: speech AUC: 0.4787 PR: 0.0164
+Dataset: vertebral AUC: 0.2917 PR: 0.0
+Dataset: Seismic AUC: 0.7384 PR: 0.1706
+Dataset: Banknote AUC: 0.5316 PR: 0.4738
+Dataset: HeartDisease AUC: 0.6821 PR: 0.6083
+Dataset: cardio AUC: 0.7333 PR: 0.3466
+-----------------------LOF----------------------
+
+Dataset: Cardiotocography AUC: 0.5915 PR: 0.3283
+Dataset: glass AUC: 0.7864 PR: 0.1111
+Dataset: Ionosphere AUC: 0.8889 PR: 0.6984
+Dataset: musk AUC: 0.5337 PR: 0.0
+Dataset: Pima AUC: 0.5396 PR: 0.3619
+Dataset: Stamps AUC: 0.5361 PR: 0.1613
+Dataset: thyroid AUC: 0.8075 PR: 0.1935
+Dataset: WPBC AUC: 0.4932 PR: 0.2128
+Dataset: Waveform AUC: 0.7826 PR: 0.23
+Dataset: landsat AUC: 0.5512 PR: 0.2693
+Dataset: mnist AUC: 0.8013 PR: 0.37
+Dataset: optdigits AUC: 0.393 PR: 0.04
+Dataset: Lymphography AUC: 0.9824 PR: 0.6667
+Dataset: satellite AUC: 0.5179 PR: 0.3364
+Dataset: satimage-2 AUC: 0.5989 PR: 0.0845
+Dataset: vowels AUC: 0.8684 PR: 0.32
+Dataset: pendigits AUC: 0.4763 PR: 0.0513
+Dataset: PageBlocks AUC: 0.7263 PR: 0.351
+Dataset: speech AUC: 0.6917 PR: 0.1311
+Dataset: vertebral AUC: 0.4844 PR: 0.0667
+Dataset: Seismic AUC: 0.5715 PR: 0.0706
+Dataset: Banknote AUC: 0.4819 PR: 0.4443
+Dataset: HeartDisease AUC: 0.6511 PR: 0.6167
+Dataset: cardio AUC: 0.5887 PR: 0.2159
+
+
+----------------------DGOF-----------------
+
+Dataset: Cardiotocography AUC: 0.6189 PR: 0.3927
+Dataset: glass AUC: 0.8011 PR: 0.1111
+Dataset: Ionosphere AUC: 0.8379 PR: 0.5794
+Dataset: Pima AUC: 0.5584 PR: 0.3806
+Dataset: Stamps AUC: 0.6343 PR: 0.1613
+Dataset: WPBC AUC: 0.56 PR: 0.1915
+Dataset: Waveform AUC: 0.7969 PR: 0.25
+Dataset: landsat AUC: 0.5701 PR: 0.3128
+Dataset: optdigits AUC: 0.2831 PR: 0.0
+Dataset: Lymphography AUC: 0.9965 PR: 0.8333
+Dataset: satellite AUC: 0.5701 PR: 0.4175
+Dataset: satimage-2 AUC: 0.6355 PR: 0.2394
+Dataset: vowels AUC: 0.9556 PR: 0.44
+Dataset: pendigits AUC: 0.8305 PR: 0.0705
+Dataset: PageBlocks AUC: 0.6721 PR: 0.3176
+Dataset: vertebral AUC: 0.4578 PR: 0.0333
+Dataset: Seismic AUC: 0.7061 PR: 0.1529
+Dataset: Banknote AUC: 0.5233 PR: 0.4525   # DGOF中的KFC从6-99开始挑选k
+Dataset: HeartDisease AUC: 0.7151 PR: 0.6667 # DGOF中的KFC从6-99开始挑选k
+Dataset: cardio AUC: 0.6041 PR: 0.2216  # DGOF中的KFC从5-99开始挑选k
+
+
+// D1-D8
+--------------DGOF---------------------
+Dataset: D1 AUC: 0.7674 PR: 0.15
+Dataset: D2 AUC: 0.5906 PR: 0.2
+Dataset: D3 AUC: 0.7533 PR: 0.48
+Dataset: D4 AUC: 0.8751 PR: 0.49
+Dataset: D5 AUC: 0.731 PR: 0.5775
+Dataset: D6 AUC: 0.8016 PR: 0.35
+Dataset: D7 AUC: 0.6485 PR: 0.5375
+Dataset: D8 AUC: 0.8685 PR: 0.65
+
+Dataset: D9 AUC: 0.6671 PR: 0.43
+Dataset: D10 AUC: 0.6698 PR: 0.435
+Dataset: D11 AUC: 0.8675 PR: 0.3
+Dataset: D12 AUC: 0.7602 PR: 0.325
+-----------------KNN-----------
+
+Dataset: D1 AUC: 0.6767 PR: 0.015      // kfc k = 98
+Dataset: D2 AUC: 0.7728 PR: 0.5     // KFC select k = 34
+Dataset: D3 AUC: 0.7425 PR: 0.49
+Dataset: D4 AUC: 0.8811 PR: 0.56
+Dataset: D5 AUC: 0.8469 PR: 0.63
+Dataset: D6 AUC: 0.5179 PR: 0.375
+Dataset: D7 AUC: 0.6719 PR: 0.5125
+Dataset: D8 AUC: 0.7338 PR: 0.6083
+
+Dataset: D9 AUC: 0.6091 PR: 0.435
+Dataset: D10 AUC: 0.6095 PR: 0.445
+Dataset: D11 AUC: 0.521 PR: 0.375
+Dataset: D12 AUC: 0.9115 PR: 0.85
+-------------LOF----------------
+Dataset: D1 AUC: 0.5506 PR: 0.215
+Dataset: D2 AUC: 0.513 PR: 0.5
+Dataset: D3 AUC: 0.7207 PR: 0.47
+Dataset: D4 AUC: 0.8633 PR: 0.555
+Dataset: D5 AUC: 0.75 PR: 0.475
+Dataset: D6 AUC: 0.4585 PR: 0.375
+Dataset: D7 AUC: 0.6572 PR: 0.5625
+Dataset: D8 AUC: 0.6907 PR: 0.6333
+
+
+
+
+Dataset: D9 AUC: 0.6777 PR: 0.44
+Dataset: D10 AUC: 0.6918 PR: 0.45
+Dataset: D11 AUC: 0.4916 PR: 0.375
+Dataset: D12 AUC: 0.9253 PR: 0.85
+
+
+// 24-6-19 KFC+KNN-based，重新实验结果
+-----------------------KFC+KNN----------------
+cardio k = 20 auc: 0.8499  pr: 0.4091  ap: 0.4284
+Cardiotocography k = 98 auc: 0.6651  pr: 0.4313  ap: 0.4414
+landsat k = 12 auc: 0.5929  pr: 0.298  ap: 0.2534
+optdigits k = 98 auc: 0.5249  pr: 0.0333  ap: 0.0298
+PageBlocks k = 9 auc: 0.8061  pr: 0.4176  ap: 0.4227
+pendigits k = 54 auc: 0.8723  pr: 0.0897  ap: 0.0981
+Pima k = 27 auc: 0.7255  pr: 0.5485  ap: 0.5236
+satellite k = 12 auc: 0.6716  pr: 0.4882  ap: 0.5306
+satimage-2 k = 6 auc: 0.9223  pr: 0.338  ap: 0.3489
+speech k = 98 auc: 0.4773  pr: 0.0328  ap: 0.0191
+mnist k = 98 auc: 0.8655  pr: 0.4214  ap: 0.4147
+vowels k = 7 auc: 0.9771  pr: 0.56  ap: 0.5661
+Waveform k = 85 auc: 0.7755  pr: 0.24  ap: 0.1853
+WPBC k = 10 auc: 0.5323  pr: 0.1915  ap: 0.2406
+Seismic k = 13 auc: 0.7381  pr: 0.1706  ap: 0.1464
+Banknote k = 29 auc: 0.5408  pr: 0.4639  ap: 0.4905
+HeartDisease k = 98 auc: 0.6821  pr: 0.6083  ap: 0.6068
+
+/// 以下不归一化
+-----------------------KFC+KNN----------------
+Seismic k = 11 auc: 0.7384  pr: 0.1706  ap: 0.14
+Banknote k = 29 auc: 0.5316  pr: 0.4738  ap: 0.4839
+HeartDisease k = 98 auc: 0.6821  pr: 0.6083  ap: 0.6068
+cardio k = 7 auc: 0.7333  pr: 0.3466  ap: 0.3545
+Cardiotocography k = 5 auc: 0.6003  pr: 0.3219  ap: 0.312
+landsat k = 10 auc: 0.5937  pr: 0.2926  ap: 0.2538
+optdigits k = 98 auc: 0.5355  pr: 0.0336  ap: 0.0309
+PageBlocks k = 6 auc: 0.5598  pr: 0.2039  ap: 0.2143
+pendigits k = 54 auc: 0.8723  pr: 0.0897  ap: 0.0981
+Pima k = 3 auc: 0.6072  pr: 0.4851  ap: 0.4628
+satellite k = 9 auc: 0.6931  pr: 0.5081  ap: 0.5609
+satimage-2 k = 7 auc: 0.9474  pr: 0.3803  ap: 0.3771
+speech k = 98 auc: 0.4787  pr: 0.0164  ap: 0.0188
+mnist k = 98 auc: 0.8648  pr: 0.4186  ap: 0.4118
+vowels k = 10 auc: 0.9682  pr: 0.48  ap: 0.5119
+Waveform k = 97 auc: 0.8009  pr: 0.28  ap: 0.2527
+WPBC k = 10 auc: 0.5323  pr: 0.1915  ap: 0.2406
+Ionosphere k = 98 auc: 0.83  pr: 0.6111  ap: 0.7233
+
+
+-----------------------KFC+LOF----------------
+Seismic k = 9 auc: 0.5715  pr: 0.0706  ap: 0.08
+Banknote k = 43 auc: 0.4819  pr: 0.4443  ap: 0.4337
+HeartDisease k = 98 auc: 0.6511  pr: 0.6167  ap: 0.5708
+cardio k = 11 auc: 0.5887  pr: 0.2159  ap: 0.1841
+Cardiotocography k = 15 auc: 0.5915  pr: 0.3283  ap: 0.295
+landsat k = 14 auc: 0.5512  pr: 0.2693  ap: 0.2496
+optdigits k = 98 auc: 0.393  pr: 0.04  ap: 0.0251
+PageBlocks k = 12 auc: 0.7263  pr: 0.351  ap: 0.3274
+pendigits k = 37 auc: 0.4763  pr: 0.0513  ap: 0.0312
+Pima k = 19 auc: 0.5396  pr: 0.3619  ap: 0.3681
+satellite k = 9 auc: 0.5179  pr: 0.3364  ap: 0.3498
+satimage-2 k = 9 auc: 0.5989  pr: 0.0845  ap: 0.0499
+speech k = 3 auc: 0.6917  pr: 0.1311  ap: 0.0907
+mnist k = 98 auc: 0.8013  pr: 0.37  ap: 0.337
+vowels k = 5 auc: 0.8684  pr: 0.32  ap: 0.3119
+Waveform k = 98 auc: 0.7826  pr: 0.23  ap: 0.1976
+WPBC k = 98 auc: 0.4932  pr: 0.2128  ap: 0.2325
+Ionosphere k = 98 auc: 0.8889  pr: 0.6984  ap: 0.8442
+
+
+---------------------KFC+DGOF----------------
+Seismic k = 14 auc: 0.7061  pr: 0.1529  ap: 0.124
+Banknote k = 47 auc: 0.5233  pr: 0.4525  ap: 0.4639
+HeartDisease k = 84 auc: 0.7151  pr: 0.6667  ap: 0.6099
+Ionosphere k = 85 auc: 0.8379  pr: 0.5794  ap: 0.7616
+cardio k = 14 auc: 0.6041  pr: 0.2216  ap: 0.2163
+Cardiotocography k = 31 auc: 0.6189  pr: 0.3927  ap: 0.3313
+landsat k = 55 auc: 0.5701  pr: 0.3128  ap: 0.2517
+optdigits k = 74 auc: 0.2831  pr: 0.0  ap: 0.0186
+PageBlocks k = 11 auc: 0.6721  pr: 0.3176  ap: 0.2944
+pendigits k = 97 auc: 0.8305  pr: 0.0705  ap: 0.0931
+Pima k = 5 auc: 0.5584  pr: 0.3806  ap: 0.3853
+satellite k = 19 auc: 0.5701  pr: 0.4175  ap: 0.4402
+satimage-2 k = 32 auc: 0.6355  pr: 0.2394  ap: 0.1605
+vowels k = 22 auc: 0.9556  pr: 0.44  ap: 0.4449
+Waveform k = 13 auc: 0.7969  pr: 0.25  ap: 0.2323
+WPBC k = 11 auc: 0.56  pr: 0.1915  ap: 0.25
+
+
+-----------------------KFC+ABOD----------------
+Dataset: Cardiotocography AUC: 0.5417 PR: 0.2597
+Dataset: Ionosphere AUC: 0.927 PR: 0.8254
+Dataset: landsat AUC: 0.5502 PR: 0.2641
+
+
+
+//归一化后
+---------------------KFC+DGOF----------------
+//下面三个数据集k范围不同
+Dataset: musk AUC: 1.0 PR: 0.9897 # k_min, k_max = 5, 99
+Dataset: mnist AUC: 0.7829 PR: 0.2386 # k_min, k_max = 4, 99
+Dataset: thyroid AUC: 0.9582 PR: 0.4086 k_min, k_max = 15, 99
+Dataset: Seismic AUC: 0.6892 PR: 0.1471
+Dataset: HeartDisease AUC: 0.7151 PR: 0.6667
+Dataset: Banknote AUC: 0.5208 PR: 0.4738 # banknote DGOF+KFC的从6开始
+Dataset: optdigits AUC:0.2776  PR: 0.0 # optdigits DGOF+KFC的从5开始
+Dataset: Cardiotocography AUC: 0.6682 PR: 0.3648 AP: 0.4003
+Dataset: Ionosphere AUC: 0.8379 PR: 0.5794 AP: 0.7616
+Dataset: landsat AUC: 0.5553 PR: 0.2896 AP: 0.2402
+Dataset: pendigits AUC: 0.8305 PR: 0.0705 AP: 0.0931
+Dataset: PageBlocks AUC: 0.8413 PR: 0.4784 AP: 0.5015
+Dataset: Waveform AUC: 0.7691 PR: 0.24 AP: 0.1781
+Dataset: WPBC AUC: 0.56 PR: 0.1915 AP: 0.25
+Dataset: Pima AUC: 0.6967 PR: 0.5149 AP: 0.4905
+Dataset: satellite AUC: 0.6136 PR: 0.4651 AP: 0.4914
+Dataset: satimage-2 AUC: 0.6424 PR: 0.2254 AP: 0.1445
+Dataset: vowels AUC: 0.9631 PR: 0.46 AP: 0.519
+Dataset: cardio AUC: 0.9322 PR: 0.5341 AP: 0.5813 # 从k_min, k_max = 5, 99
+
+
+Dataset: D1 AUC: 0.3562 PR: 0.145
+Dataset: D2 AUC: 0.6076 PR: 0.5 AP: 0.583
+Dataset: D3 AUC: 0.6334 PR: 0.5
+Dataset: D4 AUC: 0.7474 PR: 0.56
+Dataset: D5 AUC: 0.6951 PR: 0.525
+Dataset: D6 AUC: 0.9197 PR: 0.525
+Dataset: D7 AUC: 0.6599 PR: 0.5375
+Dataset: D8 AUC: 0.8836 PR: 0.6417
+Dataset: D9 AUC: 0.6235 PR: 0.435
+Dataset: D10 AUC: 0.6202 PR: 0.435
+Dataset: D11 AUC: 0.5839 PR: 0.5385 AP: 0.5558
+Dataset: D12 AUC: 0.5821 PR: 0.5385 AP: 0.5462
+
+---------------------KFC+LOF----------------
+Dataset: thyroid AUC: 0.8075 PR: 0.1935
+Dataset: mnist AUC: 0.8019 PR: 0.37
+Dataset: musk AUC: 0.8014 PR: 0.1753
+Dataset: Seismic AUC: 0.5579 PR: 0.0765
+Dataset: Banknote AUC: 0.5146 PR: 0.4738
+Dataset: HeartDisease AUC: 0.6511 PR: 0.6167
+Dataset: optdigits AUC:0.3921  PR:0.0333
+Dataset: PageBlocks AUC: 0.7512 PR: 0.3843 AP: 0.3641
+Dataset: WPBC AUC: 0.4932 PR: 0.2128 AP: 0.2325
+Dataset: Ionosphere AUC: 0.8889 PR: 0.6984 AP: 0.8442
+Dataset: Waveform AUC: 0.7557 PR: 0.2 AP: 0.1396
+Dataset: Cardiotocography AUC: 0.6439 PR: 0.3648 AP: 0.3175
+Dataset: cardio AUC: 0.6766 PR: 0.1989 AP: 0.1922
+Dataset: landsat AUC: 0.5514 PR: 0.2708 AP: 0.2474
+Dataset: pendigits AUC: 0.4763 PR: 0.0513 AP: 0.0312
+Dataset: speech AUC: 0.6426 PR: 0.1148 AP: 0.0706
+Dataset: Pima AUC: 0.5827 PR: 0.4291 AP: 0.4149
+Dataset: satellite AUC: 0.5379 PR: 0.3713 AP: 0.3628
+Dataset: satimage-2 AUC: 0.5894 PR: 0.0563 AP: 0.0513
+Dataset: vowels AUC: 0.9269 PR: 0.34 AP: 0.3096
+
+Dataset: D1 AUC: 0.4887 PR: 0.165
+Dataset: D2 AUC: 0.5856 PR: 0.5 AP: 0.5799
+Dataset: D3 AUC: 0.7502 PR: 0.53
+Dataset: D4 AUC: 0.7593 PR: 0.545
+Dataset: D5 AUC: 0.6462 PR: 0.495
+Dataset: D6 AUC: 0.4637 PR: 0.375
+Dataset: D7 AUC: 0.6679 PR: 0.55
+Dataset: D8 AUC: 0.711 PR: 0.625
+Dataset: D9 AUC: 0.6496 PR: 0.38
+Dataset: D10 AUC: 0.6759 PR: 0.47
+Dataset: D11 AUC: 0.4823 PR: 0.4038 AP: 0.4902
+Dataset: D12 AUC: 0.8838 PR: 0.4615 AP: 0.6368
+
+
+---------------------KFC+KNN----------------
+Dataset: thyroid AUC: 0.9515 PR: 0.2473
+Dataset: mnist AUC: 0.8655 PR: 0.4214
+Dataset: musk AUC: 1.0 PR: 1.0
+Dataset: Seismic AUC: 0.7381 PR: 0.1706
+Dataset: Banknote AUC: 0.5408 PR: 0.4639
+Dataset: HeartDisease AUC: 0.6821 PR: 0.6083
+Dataset: optdigits AUC: 0.5249 PR: 0.0333
+Dataset: PageBlocks AUC: 0.8061 PR: 0.4176 AP: 0.4227
+Dataset: WPBC AUC: 0.5323 PR: 0.1915 AP: 0.2406
+Dataset: Ionosphere AUC: 0.83 PR: 0.6111 AP: 0.7233
+Dataset: Waveform AUC: 0.7755 PR: 0.24 AP: 0.1853
+Dataset: Cardiotocography AUC: 0.6651 PR: 0.4313 AP: 0.4414
+Dataset: cardio AUC: 0.8499 PR: 0.4091 AP: 0.4284
+Dataset: landsat AUC: 0.5929 PR: 0.298 AP: 0.2534
+Dataset: pendigits AUC: 0.8723 PR: 0.0897 AP: 0.0981
+Dataset: speech AUC: 0.4773 PR: 0.0328 AP: 0.0191
+Dataset: Pima AUC: 0.7255 PR: 0.5485 AP: 0.5236
+Dataset: satellite AUC: 0.6716 PR: 0.4882 AP: 0.5306
+Dataset: satimage-2 AUC: 0.9223 PR: 0.338 AP: 0.3489
+Dataset: vowels AUC: 0.9771 PR: 0.56 AP: 0.5661
+
+Dataset: D1 AUC: 0.1266 PR: 0.045
+Dataset: D2 AUC: 0.8228 PR: 0.5192 AP: 0.6589
+Dataset: D3 AUC: 0.5783 PR: 0.44
+Dataset: D4 AUC: 0.7465 PR: 0.535
+Dataset: D5 AUC: 0.6941 PR: 0.585
+Dataset: D6 AUC: 0.6065 PR: 0.375
+Dataset: D7 AUC: 0.7201 PR: 0.5125
+Dataset: D8 AUC: 0.7122 PR: 0.6167
+Dataset: D9 AUC: 0.4924 PR: 0.415
+Dataset: D10 AUC: 0.4928 PR: 0.415
+Dataset: D11 AUC: 0.6127 PR: 0.4038 AP: 0.5069
+Dataset: D12 AUC: 0.9464 PR: 0.9038 AP: 0.9292
+
+
+
+
