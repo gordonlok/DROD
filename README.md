@@ -1,4 +1,4 @@
-# Graph Connected Reference Sets for Robust Unsupervised Scatterliers and Clusterliers Detection"
+# Hierarchical Reference Sets for Robust Unsupervised Detection of Scattered and Clustered Outliers
 # Datasetscs
 	24 demo datasets are located in the GROD/MGOD_code/data folder.
 # Code information
